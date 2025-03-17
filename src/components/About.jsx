@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon }) => {
                 <div className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex flex-col items-center justify-evenly'
                     options={{ max: 45, scale: 1, speed: 450, glare: true }}>
                     <img src={icon} alt={title} className='object-contain w-16 h-16' />
-                    <h3 className='to-white text-[20px] font-bold text-center'>
+                    <h3 className='to-white text-[20px] font-bold text-center '>
                         {title}
                     </h3>
                 </div>
@@ -35,7 +35,7 @@ const About = () => {
                 <p className={styles.sectionSubText}>Introduction</p>
                 <h2 className={styles.sectionHeadText}>Overview.</h2>
             </motion.div>
-            <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 to-secondary text-[17px] max-w-3xl leading-[30px]'>
+            <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 to-secondary text-[17px] max-w-3xl leading-[30px]  text-justify lg:text-left'>
                 I'm a skill sofftware developer with experiences in javascript , TypeScript and PHP Programming Languages, also advanced in framework like Next.Js , Vue.Js, Laravel, Codeigniter, Node.Js, And Python. I'm quick learner and collaborate closely with teamwork to create efficient, scallable and user friendly solutions, also I'm Learning a cyber security for website application that make me concern about privacy and data security for website development and for better user experiences.
             </motion.p>
 
