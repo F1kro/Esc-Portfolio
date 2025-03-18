@@ -30,6 +30,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import uts from "./uts.png";
+import vue from "./vue.png";
+import burp from "./burp.png";
+import next from "./next.png";
+import linux from "./linux.png";
+import smk from "./smk.png";
+
+
 export {
   logo,
   backend,
@@ -59,4 +67,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  uts,
+  next,
+  vue,
+  burp,
+  linux,
+  smk,
+
 };
